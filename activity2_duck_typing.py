@@ -13,12 +13,10 @@ class Robot:
         print("The robot is moving mechanically.")
 
 
-# Duck typing function
 def make_it_move(thing):
     thing.move()
 
 
-# Test
 objects = [Car(), Person(), Robot()]
 
 for obj in objects:
